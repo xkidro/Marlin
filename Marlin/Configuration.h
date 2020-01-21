@@ -412,12 +412,8 @@
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_5 0
-<<<<<<< HEAD
 #define TEMP_SENSOR_BED 1
-=======
-#define TEMP_SENSOR_BED 0
 #define TEMP_SENSOR_PROBE 0
->>>>>>> d3a8a81756de675a03b20ffa262122f41d384022
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -679,12 +675,8 @@
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
-<<<<<<< HEAD
 #define E0_DRIVER_TYPE TMC2209
-=======
 //#define Z4_DRIVER_TYPE A4988
-//#define E0_DRIVER_TYPE A4988
->>>>>>> d3a8a81756de675a03b20ffa262122f41d384022
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
