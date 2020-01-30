@@ -935,7 +935,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -44, 6, -3.04 }
+#define NOZZLE_TO_PROBE_OFFSET { -44, 6, -2.75 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -960,7 +960,7 @@
  * A total of 3 or more adds more slow probes, taking the average.
  */
 #define MULTIPLE_PROBING 2
-//#define EXTRA_PROBING    1
+//#define EXTRA_PROBING    2
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
